@@ -68,19 +68,19 @@ async function main() {
     console.log(`Количество столбцов: ${Object.keys(matches[0]).length}`);
 }
 
-function print_body(){
-const options = {
-    url: `https://www.bundesliga.com/en/bundesliga/matchday/2023-2024/1`,
-    method: 'GET'
-};
+main();
+
 request(options, (err, res, body) => {
     if (err) {
         return;
     }
     console.log(body);
 });
+
+function print_body(){
+    const options = {
+        url: `https://www.bundesliga.com/en/bundesliga/matchday/2023-2024/1`,
+        method: 'GET'
+    };
 }
-
 //print_body();
-
-main();
