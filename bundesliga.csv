@@ -1,0 +1,307 @@
+Number,Home team name,Away team name,Home goals,Away goals,Competition,Week
+1,SV Werder Bremen,FC Bayern München,0,4,Bundesliga,1
+2,VfB Stuttgart,VfL Bochum 1848,5,0,Bundesliga,1
+3,FC Augsburg,Borussia Mönchengladbach,4,4,Bundesliga,1
+4,TSG Hoffenheim,SC Freiburg,1,2,Bundesliga,1
+5,VfL Wolfsburg,1. FC Heidenheim 1846,2,0,Bundesliga,1
+6,Bayer 04 Leverkusen,RB Leipzig,3,2,Bundesliga,1
+7,Borussia Dortmund,1. FC Köln,1,0,Bundesliga,1
+8,1. FC Union Berlin,1. FSV Mainz 05,4,1,Bundesliga,1
+9,Eintracht Frankfurt,SV Darmstadt 98,1,0,Bundesliga,1
+10,RB Leipzig,VfB Stuttgart,5,1,Bundesliga,2
+11,SV Darmstadt 98,1. FC Union Berlin,1,4,Bundesliga,2
+12,1. FC Heidenheim 1846,TSG Hoffenheim,2,3,Bundesliga,2
+13,VfL Bochum 1848,Borussia Dortmund,1,1,Bundesliga,2
+14,1. FC Köln,VfL Wolfsburg,1,2,Bundesliga,2
+15,SC Freiburg,SV Werder Bremen,1,0,Bundesliga,2
+16,Borussia Mönchengladbach,Bayer 04 Leverkusen,0,3,Bundesliga,2
+17,1. FSV Mainz 05,Eintracht Frankfurt,1,1,Bundesliga,2
+18,FC Bayern München,FC Augsburg,3,1,Bundesliga,2
+19,Borussia Dortmund,1. FC Heidenheim 1846,2,2,Bundesliga,3
+20,VfB Stuttgart,SC Freiburg,5,0,Bundesliga,3
+21,FC Augsburg,VfL Bochum 1848,2,2,Bundesliga,3
+22,SV Werder Bremen,1. FSV Mainz 05,4,0,Bundesliga,3
+23,TSG Hoffenheim,VfL Wolfsburg,3,1,Bundesliga,3
+24,Bayer 04 Leverkusen,SV Darmstadt 98,5,1,Bundesliga,3
+25,Borussia Mönchengladbach,FC Bayern München,1,2,Bundesliga,3
+26,Eintracht Frankfurt,1. FC Köln,1,1,Bundesliga,3
+27,1. FC Union Berlin,RB Leipzig,0,3,Bundesliga,3
+28,FC Bayern München,Bayer 04 Leverkusen,2,2,Bundesliga,4
+29,1. FC Köln,TSG Hoffenheim,1,3,Bundesliga,4
+30,1. FSV Mainz 05,VfB Stuttgart,1,3,Bundesliga,4
+31,VfL Wolfsburg,1. FC Union Berlin,2,1,Bundesliga,4
+32,SC Freiburg,Borussia Dortmund,2,4,Bundesliga,4
+33,RB Leipzig,FC Augsburg,3,0,Bundesliga,4
+34,VfL Bochum 1848,Eintracht Frankfurt,1,1,Bundesliga,4
+35,1. FC Heidenheim 1846,SV Werder Bremen,4,2,Bundesliga,4
+36,SV Darmstadt 98,Borussia Mönchengladbach,3,3,Bundesliga,4
+37,VfB Stuttgart,SV Darmstadt 98,3,1,Bundesliga,5
+38,FC Augsburg,1. FSV Mainz 05,2,1,Bundesliga,5
+39,Borussia Mönchengladbach,RB Leipzig,0,1,Bundesliga,5
+40,1. FC Union Berlin,TSG Hoffenheim,0,2,Bundesliga,5
+41,Borussia Dortmund,VfL Wolfsburg,1,0,Bundesliga,5
+42,FC Bayern München,VfL Bochum 1848,7,0,Bundesliga,5
+43,SV Werder Bremen,1. FC Köln,2,1,Bundesliga,5
+44,Bayer 04 Leverkusen,1. FC Heidenheim 1846,4,1,Bundesliga,5
+45,Eintracht Frankfurt,SC Freiburg,0,0,Bundesliga,5
+46,TSG Hoffenheim,Borussia Dortmund,1,3,Bundesliga,6
+47,1. FC Heidenheim 1846,1. FC Union Berlin,1,0,Bundesliga,6
+48,VfL Bochum 1848,Borussia Mönchengladbach,1,3,Bundesliga,6
+49,1. FC Köln,VfB Stuttgart,0,2,Bundesliga,6
+50,1. FSV Mainz 05,Bayer 04 Leverkusen,0,3,Bundesliga,6
+51,VfL Wolfsburg,Eintracht Frankfurt,2,0,Bundesliga,6
+52,RB Leipzig,FC Bayern München,2,2,Bundesliga,6
+53,SV Darmstadt 98,SV Werder Bremen,4,2,Bundesliga,6
+54,SC Freiburg,FC Augsburg,2,0,Bundesliga,6
+55,Borussia Mönchengladbach,1. FSV Mainz 05,2,2,Bundesliga,7
+56,VfB Stuttgart,VfL Wolfsburg,3,1,Bundesliga,7
+57,FC Augsburg,SV Darmstadt 98,1,2,Bundesliga,7
+58,RB Leipzig,VfL Bochum 1848,0,0,Bundesliga,7
+59,Borussia Dortmund,1. FC Union Berlin,4,2,Bundesliga,7
+60,SV Werder Bremen,TSG Hoffenheim,2,3,Bundesliga,7
+61,Bayer 04 Leverkusen,1. FC Köln,3,0,Bundesliga,7
+62,FC Bayern München,SC Freiburg,3,0,Bundesliga,7
+63,Eintracht Frankfurt,1. FC Heidenheim 1846,2,0,Bundesliga,7
+64,Borussia Dortmund,SV Werder Bremen,1,0,Bundesliga,8
+65,SV Darmstadt 98,RB Leipzig,1,3,Bundesliga,8
+66,TSG Hoffenheim,Eintracht Frankfurt,1,3,Bundesliga,8
+67,VfL Wolfsburg,Bayer 04 Leverkusen,1,2,Bundesliga,8
+68,SC Freiburg,VfL Bochum 1848,2,1,Bundesliga,8
+69,1. FC Union Berlin,VfB Stuttgart,0,3,Bundesliga,8
+70,1. FSV Mainz 05,FC Bayern München,1,3,Bundesliga,8
+71,1. FC Köln,Borussia Mönchengladbach,3,1,Bundesliga,8
+72,1. FC Heidenheim 1846,FC Augsburg,2,5,Bundesliga,8
+73,VfL Bochum 1848,1. FSV Mainz 05,2,2,Bundesliga,9
+74,VfB Stuttgart,TSG Hoffenheim,2,3,Bundesliga,9
+75,FC Augsburg,VfL Wolfsburg,3,2,Bundesliga,9
+76,SV Werder Bremen,1. FC Union Berlin,2,0,Bundesliga,9
+77,Borussia Mönchengladbach,1. FC Heidenheim 1846,2,1,Bundesliga,9
+78,FC Bayern München,SV Darmstadt 98,8,0,Bundesliga,9
+79,RB Leipzig,1. FC Köln,6,0,Bundesliga,9
+80,Eintracht Frankfurt,Borussia Dortmund,3,3,Bundesliga,9
+81,Bayer 04 Leverkusen,SC Freiburg,2,1,Bundesliga,9
+82,SV Darmstadt 98,VfL Bochum 1848,1,2,Bundesliga,10
+83,TSG Hoffenheim,Bayer 04 Leverkusen,2,3,Bundesliga,10
+84,1. FC Köln,FC Augsburg,1,1,Bundesliga,10
+85,1. FSV Mainz 05,RB Leipzig,2,0,Bundesliga,10
+86,SC Freiburg,Borussia Mönchengladbach,3,3,Bundesliga,10
+87,1. FC Union Berlin,Eintracht Frankfurt,0,3,Bundesliga,10
+88,Borussia Dortmund,FC Bayern München,0,4,Bundesliga,10
+89,VfL Wolfsburg,SV Werder Bremen,2,2,Bundesliga,10
+90,1. FC Heidenheim 1846,VfB Stuttgart,2,0,Bundesliga,10
+91,Borussia Mönchengladbach,VfL Wolfsburg,4,0,Bundesliga,11
+92,SV Darmstadt 98,1. FSV Mainz 05,0,0,Bundesliga,11
+93,VfB Stuttgart,Borussia Dortmund,2,1,Bundesliga,11
+94,FC Augsburg,TSG Hoffenheim,1,1,Bundesliga,11
+95,FC Bayern München,1. FC Heidenheim 1846,4,2,Bundesliga,11
+96,VfL Bochum 1848,1. FC Köln,1,1,Bundesliga,11
+97,Bayer 04 Leverkusen,1. FC Union Berlin,4,0,Bundesliga,11
+98,SV Werder Bremen,Eintracht Frankfurt,2,2,Bundesliga,11
+99,RB Leipzig,SC Freiburg,3,1,Bundesliga,11
+100,1. FC Köln,FC Bayern München,0,1,Bundesliga,12
+101,SV Werder Bremen,Bayer 04 Leverkusen,0,3,Bundesliga,12
+102,VfL Wolfsburg,RB Leipzig,2,1,Bundesliga,12
+103,SC Freiburg,SV Darmstadt 98,1,1,Bundesliga,12
+104,1. FC Union Berlin,FC Augsburg,1,1,Bundesliga,12
+105,Borussia Dortmund,Borussia Mönchengladbach,4,2,Bundesliga,12
+106,Eintracht Frankfurt,VfB Stuttgart,1,2,Bundesliga,12
+107,1. FC Heidenheim 1846,VfL Bochum 1848,0,0,Bundesliga,12
+108,TSG Hoffenheim,1. FSV Mainz 05,1,1,Bundesliga,12
+109,SV Darmstadt 98,1. FC Köln,0,1,Bundesliga,13
+110,VfL Bochum 1848,VfL Wolfsburg,3,1,Bundesliga,13
+111,Borussia Mönchengladbach,TSG Hoffenheim,2,1,Bundesliga,13
+112,RB Leipzig,1. FC Heidenheim 1846,2,1,Bundesliga,13
+113,VfB Stuttgart,SV Werder Bremen,2,0,Bundesliga,13
+114,1. FSV Mainz 05,SC Freiburg,0,1,Bundesliga,13
+115,Bayer 04 Leverkusen,Borussia Dortmund,1,1,Bundesliga,13
+116,FC Augsburg,Eintracht Frankfurt,2,1,Bundesliga,13
+117,FC Bayern München,1. FC Union Berlin,1,0,Bundesliga,13
+118,TSG Hoffenheim,VfL Bochum 1848,3,1,Bundesliga,14
+119,1. FC Heidenheim 1846,SV Darmstadt 98,3,2,Bundesliga,14
+120,SV Werder Bremen,FC Augsburg,2,0,Bundesliga,14
+121,VfL Wolfsburg,SC Freiburg,0,1,Bundesliga,14
+122,Eintracht Frankfurt,FC Bayern München,5,1,Bundesliga,14
+123,1. FC Union Berlin,Borussia Mönchengladbach,3,1,Bundesliga,14
+124,Borussia Dortmund,RB Leipzig,2,3,Bundesliga,14
+125,VfB Stuttgart,Bayer 04 Leverkusen,1,1,Bundesliga,14
+126,1. FC Köln,1. FSV Mainz 05,0,0,Bundesliga,14
+127,Borussia Mönchengladbach,SV Werder Bremen,2,2,Bundesliga,15
+128,SV Darmstadt 98,VfL Wolfsburg,0,1,Bundesliga,15
+129,FC Augsburg,Borussia Dortmund,1,1,Bundesliga,15
+130,VfL Bochum 1848,1. FC Union Berlin,3,0,Bundesliga,15
+131,1. FSV Mainz 05,1. FC Heidenheim 1846,0,1,Bundesliga,15
+132,RB Leipzig,TSG Hoffenheim,3,1,Bundesliga,15
+133,SC Freiburg,1. FC Köln,2,0,Bundesliga,15
+134,Bayer 04 Leverkusen,Eintracht Frankfurt,3,0,Bundesliga,15
+135,FC Bayern München,VfB Stuttgart,3,0,Bundesliga,15
+136,SV Werder Bremen,RB Leipzig,1,1,Bundesliga,16
+137,TSG Hoffenheim,SV Darmstadt 98,3,3,Bundesliga,16
+138,Borussia Dortmund,1. FSV Mainz 05,1,1,Bundesliga,16
+139,1. FC Union Berlin,1. FC Köln,2,0,Bundesliga,16
+140,1. FC Heidenheim 1846,SC Freiburg,3,2,Bundesliga,16
+141,VfB Stuttgart,FC Augsburg,3,0,Bundesliga,16
+142,VfL Wolfsburg,FC Bayern München,1,2,Bundesliga,16
+143,Eintracht Frankfurt,Borussia Mönchengladbach,2,1,Bundesliga,16
+144,Bayer 04 Leverkusen,VfL Bochum 1848,4,0,Bundesliga,16
+145,FC Bayern München,TSG Hoffenheim,3,0,Bundesliga,17
+146,FC Augsburg,Bayer 04 Leverkusen,0,1,Bundesliga,17
+147,1. FC Köln,1. FC Heidenheim 1846,1,1,Bundesliga,17
+148,1. FSV Mainz 05,VfL Wolfsburg,1,1,Bundesliga,17
+149,SC Freiburg,1. FC Union Berlin,0,0,Bundesliga,17
+150,RB Leipzig,Eintracht Frankfurt,0,1,Bundesliga,17
+151,SV Darmstadt 98,Borussia Dortmund,0,3,Bundesliga,17
+152,VfL Bochum 1848,SV Werder Bremen,1,1,Bundesliga,17
+153,Borussia Mönchengladbach,VfB Stuttgart,3,1,Bundesliga,17
+154,SV Darmstadt 98,Eintracht Frankfurt,2,2,Bundesliga,18
+155,1. FC Heidenheim 1846,VfL Wolfsburg,1,1,Bundesliga,18
+156,VfL Bochum 1848,VfB Stuttgart,1,0,Bundesliga,18
+157,1. FC Köln,Borussia Dortmund,0,4,Bundesliga,18
+158,SC Freiburg,TSG Hoffenheim,3,2,Bundesliga,18
+159,RB Leipzig,Bayer 04 Leverkusen,2,3,Bundesliga,18
+160,FC Bayern München,SV Werder Bremen,0,1,Bundesliga,18
+161,Borussia Mönchengladbach,FC Augsburg,1,2,Bundesliga,18
+162,1. FSV Mainz 05,1. FC Union Berlin,1,1,Bundesliga,18
+163,Eintracht Frankfurt,1. FSV Mainz 05,1,0,Bundesliga,19
+164,VfB Stuttgart,RB Leipzig,5,2,Bundesliga,19
+165,FC Augsburg,FC Bayern München,2,3,Bundesliga,19
+166,SV Werder Bremen,SC Freiburg,3,1,Bundesliga,19
+167,TSG Hoffenheim,1. FC Heidenheim 1846,1,1,Bundesliga,19
+168,VfL Wolfsburg,1. FC Köln,1,1,Bundesliga,19
+169,Bayer 04 Leverkusen,Borussia Mönchengladbach,0,0,Bundesliga,19
+170,1. FC Union Berlin,SV Darmstadt 98,1,0,Bundesliga,19
+171,Borussia Dortmund,VfL Bochum 1848,3,1,Bundesliga,19
+172,1. FC Heidenheim 1846,Borussia Dortmund,0,0,Bundesliga,20
+173,SV Darmstadt 98,Bayer 04 Leverkusen,0,2,Bundesliga,20
+174,VfL Bochum 1848,FC Augsburg,1,1,Bundesliga,20
+175,1. FSV Mainz 05,SV Werder Bremen,0,1,Bundesliga,20
+176,SC Freiburg,VfB Stuttgart,1,3,Bundesliga,20
+177,FC Bayern München,Borussia Mönchengladbach,3,1,Bundesliga,20
+178,1. FC Köln,Eintracht Frankfurt,2,0,Bundesliga,20
+179,VfL Wolfsburg,TSG Hoffenheim,2,2,Bundesliga,20
+180,RB Leipzig,1. FC Union Berlin,2,0,Bundesliga,20
+181,Borussia Dortmund,SC Freiburg,3,0,Bundesliga,21
+182,FC Augsburg,RB Leipzig,2,2,Bundesliga,21
+183,SV Werder Bremen,1. FC Heidenheim 1846,1,2,Bundesliga,21
+184,Borussia Mönchengladbach,SV Darmstadt 98,0,0,Bundesliga,21
+185,Eintracht Frankfurt,VfL Bochum 1848,1,1,Bundesliga,21
+186,1. FC Union Berlin,VfL Wolfsburg,1,0,Bundesliga,21
+187,Bayer 04 Leverkusen,FC Bayern München,3,0,Bundesliga,21
+188,VfB Stuttgart,1. FSV Mainz 05,3,1,Bundesliga,21
+189,TSG Hoffenheim,1. FC Köln,1,1,Bundesliga,21
+190,1. FC Köln,SV Werder Bremen,0,1,Bundesliga,22
+191,SV Darmstadt 98,VfB Stuttgart,1,2,Bundesliga,22
+192,1. FC Heidenheim 1846,Bayer 04 Leverkusen,1,2,Bundesliga,22
+193,TSG Hoffenheim,1. FC Union Berlin,0,1,Bundesliga,22
+194,1. FSV Mainz 05,FC Augsburg,1,0,Bundesliga,22
+195,VfL Wolfsburg,Borussia Dortmund,1,1,Bundesliga,22
+196,RB Leipzig,Borussia Mönchengladbach,2,0,Bundesliga,22
+197,SC Freiburg,Eintracht Frankfurt,3,3,Bundesliga,22
+198,VfL Bochum 1848,FC Bayern München,3,2,Bundesliga,22
+199,Bayer 04 Leverkusen,1. FSV Mainz 05,2,1,Bundesliga,23
+200,VfB Stuttgart,1. FC Köln,1,1,Bundesliga,23
+201,SV Werder Bremen,SV Darmstadt 98,1,1,Bundesliga,23
+202,Borussia Mönchengladbach,VfL Bochum 1848,5,2,Bundesliga,23
+203,1. FC Union Berlin,1. FC Heidenheim 1846,2,2,Bundesliga,23
+204,FC Bayern München,RB Leipzig,2,1,Bundesliga,23
+205,Eintracht Frankfurt,VfL Wolfsburg,2,2,Bundesliga,23
+206,Borussia Dortmund,TSG Hoffenheim,2,3,Bundesliga,23
+207,FC Augsburg,SC Freiburg,2,1,Bundesliga,23
+208,SC Freiburg,FC Bayern München,2,2,Bundesliga,24
+209,SV Darmstadt 98,FC Augsburg,0,6,Bundesliga,24
+210,1. FC Heidenheim 1846,Eintracht Frankfurt,1,2,Bundesliga,24
+211,VfL Bochum 1848,RB Leipzig,1,4,Bundesliga,24
+212,1. FSV Mainz 05,Borussia Mönchengladbach,1,1,Bundesliga,24
+213,1. FC Union Berlin,Borussia Dortmund,0,2,Bundesliga,24
+214,VfL Wolfsburg,VfB Stuttgart,2,3,Bundesliga,24
+215,1. FC Köln,Bayer 04 Leverkusen,0,2,Bundesliga,24
+216,TSG Hoffenheim,SV Werder Bremen,2,1,Bundesliga,24
+217,VfB Stuttgart,1. FC Union Berlin,2,0,Bundesliga,25
+218,FC Augsburg,1. FC Heidenheim 1846,1,0,Bundesliga,25
+219,Borussia Mönchengladbach,1. FC Köln,3,3,Bundesliga,25
+220,RB Leipzig,SV Darmstadt 98,2,0,Bundesliga,25
+221,FC Bayern München,1. FSV Mainz 05,8,1,Bundesliga,25
+222,SV Werder Bremen,Borussia Dortmund,1,2,Bundesliga,25
+223,VfL Bochum 1848,SC Freiburg,1,2,Bundesliga,25
+224,Eintracht Frankfurt,TSG Hoffenheim,3,1,Bundesliga,25
+225,Bayer 04 Leverkusen,VfL Wolfsburg,2,0,Bundesliga,25
+226,1. FC Köln,RB Leipzig,1,5,Bundesliga,26
+227,SV Darmstadt 98,FC Bayern München,2,5,Bundesliga,26
+228,1. FC Heidenheim 1846,Borussia Mönchengladbach,1,1,Bundesliga,26
+229,1. FSV Mainz 05,VfL Bochum 1848,2,0,Bundesliga,26
+230,VfL Wolfsburg,FC Augsburg,1,3,Bundesliga,26
+231,1. FC Union Berlin,SV Werder Bremen,2,1,Bundesliga,26
+232,TSG Hoffenheim,VfB Stuttgart,0,3,Bundesliga,26
+233,SC Freiburg,Bayer 04 Leverkusen,2,3,Bundesliga,26
+234,Borussia Dortmund,Eintracht Frankfurt,3,1,Bundesliga,26
+235,SV Werder Bremen,VfL Wolfsburg,0,2,Bundesliga,27
+236,Borussia Mönchengladbach,SC Freiburg,0,3,Bundesliga,27
+237,Eintracht Frankfurt,1. FC Union Berlin,0,0,Bundesliga,27
+238,Bayer 04 Leverkusen,TSG Hoffenheim,2,1,Bundesliga,27
+239,RB Leipzig,1. FSV Mainz 05,0,0,Bundesliga,27
+240,FC Bayern München,Borussia Dortmund,0,2,Bundesliga,27
+241,FC Augsburg,1. FC Köln,1,1,Bundesliga,27
+242,VfB Stuttgart,1. FC Heidenheim 1846,3,3,Bundesliga,27
+243,VfL Bochum 1848,SV Darmstadt 98,2,2,Bundesliga,27
+244,Eintracht Frankfurt,SV Werder Bremen,1,1,Bundesliga,28
+245,1. FC Heidenheim 1846,FC Bayern München,3,2,Bundesliga,28
+246,1. FC Köln,VfL Bochum 1848,2,1,Bundesliga,28
+247,1. FSV Mainz 05,SV Darmstadt 98,4,0,Bundesliga,28
+248,SC Freiburg,RB Leipzig,1,4,Bundesliga,28
+249,1. FC Union Berlin,Bayer 04 Leverkusen,0,1,Bundesliga,28
+250,Borussia Dortmund,VfB Stuttgart,0,1,Bundesliga,28
+251,TSG Hoffenheim,FC Augsburg,3,1,Bundesliga,28
+252,VfL Wolfsburg,Borussia Mönchengladbach,1,3,Bundesliga,28
+253,FC Augsburg,1. FC Union Berlin,2,0,Bundesliga,29
+254,VfL Bochum 1848,1. FC Heidenheim 1846,1,1,Bundesliga,29
+255,Borussia Mönchengladbach,Borussia Dortmund,1,2,Bundesliga,29
+256,1. FSV Mainz 05,TSG Hoffenheim,4,1,Bundesliga,29
+257,RB Leipzig,VfL Wolfsburg,3,0,Bundesliga,29
+258,FC Bayern München,1. FC Köln,2,0,Bundesliga,29
+259,VfB Stuttgart,Eintracht Frankfurt,3,0,Bundesliga,29
+260,SV Darmstadt 98,SC Freiburg,0,1,Bundesliga,29
+261,Bayer 04 Leverkusen,SV Werder Bremen,5,0,Bundesliga,29
+262,Eintracht Frankfurt,FC Augsburg,3,1,Bundesliga,30
+263,1. FC Heidenheim 1846,RB Leipzig,1,2,Bundesliga,30
+264,TSG Hoffenheim,Borussia Mönchengladbach,4,3,Bundesliga,30
+265,1. FC Köln,SV Darmstadt 98,0,2,Bundesliga,30
+266,VfL Wolfsburg,VfL Bochum 1848,1,0,Bundesliga,30
+267,1. FC Union Berlin,FC Bayern München,1,5,Bundesliga,30
+268,SV Werder Bremen,VfB Stuttgart,2,1,Bundesliga,30
+269,Borussia Dortmund,Bayer 04 Leverkusen,1,1,Bundesliga,30
+270,SC Freiburg,1. FSV Mainz 05,1,1,Bundesliga,30
+271,VfL Bochum 1848,TSG Hoffenheim,3,2,Bundesliga,31
+272,FC Augsburg,SV Werder Bremen,0,3,Bundesliga,31
+273,SC Freiburg,VfL Wolfsburg,1,2,Bundesliga,31
+274,RB Leipzig,Borussia Dortmund,4,1,Bundesliga,31
+275,FC Bayern München,Eintracht Frankfurt,2,1,Bundesliga,31
+276,Bayer 04 Leverkusen,VfB Stuttgart,2,2,Bundesliga,31
+277,Borussia Mönchengladbach,1. FC Union Berlin,0,0,Bundesliga,31
+278,1. FSV Mainz 05,1. FC Köln,1,1,Bundesliga,31
+279,SV Darmstadt 98,1. FC Heidenheim 1846,0,1,Bundesliga,31
+280,TSG Hoffenheim,RB Leipzig,1,1,Bundesliga,32
+281,VfB Stuttgart,FC Bayern München,3,1,Bundesliga,32
+282,SV Werder Bremen,Borussia Mönchengladbach,2,2,Bundesliga,32
+283,VfL Wolfsburg,SV Darmstadt 98,3,0,Bundesliga,32
+284,Borussia Dortmund,FC Augsburg,5,1,Bundesliga,32
+285,1. FC Köln,SC Freiburg,0,0,Bundesliga,32
+286,1. FC Union Berlin,VfL Bochum 1848,3,4,Bundesliga,32
+287,Eintracht Frankfurt,Bayer 04 Leverkusen,1,5,Bundesliga,32
+288,1. FC Heidenheim 1846,1. FSV Mainz 05,1,1,Bundesliga,32
+289,FC Augsburg,VfB Stuttgart,0,1,Bundesliga,33
+290,1. FC Köln,1. FC Union Berlin,3,2,Bundesliga,33
+291,Borussia Mönchengladbach,Eintracht Frankfurt,1,1,Bundesliga,33
+292,SC Freiburg,1. FC Heidenheim 1846,1,1,Bundesliga,33
+293,RB Leipzig,SV Werder Bremen,1,1,Bundesliga,33
+294,1. FSV Mainz 05,Borussia Dortmund,3,0,Bundesliga,33
+295,SV Darmstadt 98,TSG Hoffenheim,0,6,Bundesliga,33
+296,FC Bayern München,VfL Wolfsburg,2,0,Bundesliga,33
+297,VfL Bochum 1848,Bayer 04 Leverkusen,0,5,Bundesliga,33
+298,1. FC Heidenheim 1846,1. FC Köln,4,1,Bundesliga,34
+299,VfB Stuttgart,Borussia Mönchengladbach,4,0,Bundesliga,34
+300,SV Werder Bremen,VfL Bochum 1848,4,1,Bundesliga,34
+301,TSG Hoffenheim,FC Bayern München,4,2,Bundesliga,34
+302,VfL Wolfsburg,1. FSV Mainz 05,1,3,Bundesliga,34
+303,Eintracht Frankfurt,RB Leipzig,2,2,Bundesliga,34
+304,Bayer 04 Leverkusen,FC Augsburg,2,1,Bundesliga,34
+305,1. FC Union Berlin,SC Freiburg,2,1,Bundesliga,34
+306,Borussia Dortmund,SV Darmstadt 98,4,0,Bundesliga,34
