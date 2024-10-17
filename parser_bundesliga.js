@@ -10,8 +10,8 @@ const csvWriter = createCsvWriter({
         { id: 'away_team', title: 'Away team name' },
         { id: 'home_score', title: 'Home goals' },
         { id: 'away_score', title: 'Away goals' },
-        { id: 'competition', title: 'Competition'},
-        { id: 'week', title: 'Week'}
+        { id: 'competition', title: 'Competition' },
+        { id: 'week', title: 'Week' }
     ]
 });
 
@@ -41,7 +41,7 @@ function send_request(week) {
                     home_team: element_team_name[i].children[0].data,
                     away_team: element_team_name[i + 1].children[0].data,
                     home_score: element_score[i].children[0].data.trim(),
-                    away_score: element_score[i + 1].children[0].data.trim(), 
+                    away_score: element_score[i + 1].children[0].data.trim(),
                     competition: competition,
                     week: week
                 };
