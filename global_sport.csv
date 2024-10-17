@@ -10460,7 +10460,7 @@ Number,Home team name,Away team name,Home goals,Away goals,Date,Time
 10459,K.Maraşspor,Çorluspor,0,3,2024-10-09,13:00
 10460,Muğlaspor,Sarıyer,4,"4, 2",2024-10-09,13:00
 10461,Niğde Bld,Aksaray Bld,1,0,2024-10-09,13:00
-10462,Özgüzeldere,Kelkit,1,"1, 3",2024-10-09,13:00
+10462,Özgüzeldere,Kelkit,4,"5, 3",2024-10-09,13:00
 10463,Karabük İY,Nilüfer,0,4,2024-10-09,13:00
 10464,Beykoz,Tire,0,3,2024-10-09,13:00
 10465,Etimesgut Bld,Şırnak Petrol,2,1,2024-10-09,13:00
@@ -12329,119 +12329,148 @@ Number,Home team name,Away team name,Home goals,Away goals,Date,Time
 12328,Amkar,Kompozit,1,0,2024-10-15,16:00
 12329,Ufa,Shinnik,0,1,2024-10-15,16:00
 12330,Saratov,Ural,1,3,2024-10-15,18:30
-12331,Bosnia U21,Cyprus U21,1,3,2024-10-15,16:00
-12332,Spain U21,Malta U21,6,0,2024-10-15,17:00
-12333,Estonia U21,Kosovo U21,3,1,2024-10-15,17:00
-12334,Poland U21,Germany U21,3,3,2024-10-15,17:00
-12335,Belgium U21,Hungary U21,0,1,2024-10-15,18:00
-12336,Kazakhstan U21,Scotland U21,3,2,2024-10-15,18:00
-12337,Georgia U21,Macedonia U21,2,1,2024-10-15,18:00
-12338,Israel U21,Bulgaria U21,0,1,2024-10-15,18:00
-12339,Albania U21,Armenia U21,1,0,2024-10-15,18:00
-12340,Romania U21,Switzerl. U21,3,1,2024-10-15,18:00
-12341,Finland U21,Montenegro U21,2,1,2024-10-15,18:00
-12342,Andorra U21,Portugal U21,1,2,2024-10-15,18:00
-12343,Croatia U21,Greece U21,3,2,2024-10-15,18:00
-12344,Faroe Isl. U21,Belarus U21,1,0,2024-10-15,18:00
-12345,Denmark U21,Iceland U21,2,0,2024-10-15,18:00
-12346,Czechia U21,Lithuania U21,3,0,2024-10-15,18:00
-12347,Italy U21,Ireland U21,1,1,2024-10-15,18:30
-12348,Norway U21,Türkiye U21,5,1,2024-10-15,18:30
-12349,San Marino U21,Latvia U21,0,3,2024-10-15,18:30
-12350,France U21,Austria U21,1,2,2024-10-15,18:30
-12351,Luxembourg U21,N. Ireland U21,0,0,2024-10-15,20:30
-12352,England U21,Azerbaijan U21,7,0,2024-10-15,20:30
-12353,Serbia U21,Ukraine U21,1,0,2024-10-15,20:30
-12354,Krems,SU Mauer,3,0,2024-10-15,19:30
-12355,Stockerau,Ybbs,2,2,2024-10-15,20:00
-12356,Micheldorf,St. Martin,1,1,2024-10-15,19:00
-12357,Edelweiß,Dietach,0,3,2024-10-15,19:00
-12358,Union Perg,Bad Ischl,2,1,2024-10-15,19:30
-12359,Heiligenkreuz,Eggendorf,1,0,2024-10-15,19:00
-12360,Strání,Zlínsko,0,7,2024-10-15,15:30
-12361,Petřín,Motorlet,3,1,2024-10-15,16:00
-12362,Bamber Bridge,Stockton,1,5,2024-10-15,20:45
-12363,Leek,Rylands,0,1,2024-10-15,20:45
-12364,Lancaster,Guiseley,1,1,2024-10-15,20:45
-12365,Macclesfield,Hebburn,4,1,2024-10-15,20:45
-12366,Wimborne,Tiverton,3,0,2024-10-15,20:30
-12367,Telford,Alvechurch,1,1,2024-10-15,20:45
-12368,Banbury,Bedford,2,0,2024-10-15,20:45
-12369,Bromsgrove,Kettering,1,2,2024-10-15,20:45
-12370,Hitchin,Leiston,1,1,2024-10-15,20:45
-12371,Lowestoft,Stortford,2,1,2024-10-15,20:45
-12372,Royston,Spalding,0,3,2024-10-15,20:45
-12373,Stourbridge,Harborough,1,4,2024-10-15,20:45
-12374,Gloucester,Frome,2,0,2024-10-15,20:45
-12375,Hanwell,Basingstoke,1,2,2024-10-15,20:45
-12376,Hungerford,Bracknell,1,2,2024-10-15,20:45
-12377,Marlow,Chertsey,0,5,2024-10-15,20:45
-12378,Parkway,Totton,1,2,2024-10-15,20:45
-12379,Poole,Havant & Water,0,1,2024-10-15,20:45
-12380,Sholing,Dorchester,1,5,2024-10-15,20:45
-12381,Supermarine,Winchester,2,0,2024-10-15,20:45
-12382,Walton/Hersham,Gosport,2,2,2024-10-15,20:45
-12383,Cray,Chatham,1,4,2024-10-15,20:45
-12384,Hastings,Cheshunt,2,3,2024-10-15,20:45
-12385,Horsham,Whitehawk,5,0,2024-10-15,20:45
-12386,Wingate,Bowers/Pitsea,3,1,2024-10-15,20:45
-12387,Bradford PA,Carlton,1,1,2024-10-15,20:45
-12388,Cleethorpes,Aycliffe,3,2,2024-10-15,20:45
-12389,Belper,Brighouse,0,2,2024-10-15,20:45
-12390,Garforth,Ossett,2,1,2024-10-15,20:45
-12391,Bishop AL,Dunston,2,2,2024-10-15,20:45
-12392,Vauxhall,Nantwich,1,2,2024-10-15,20:45
-12393,Quorn,Students,5,1,2024-10-15,20:45
-12394,Warwick,Anstey,0,3,2024-10-15,20:45
-12395,Sttn Coldfield,Bedworth,0,0,2024-10-15,20:45
-12396,Wellingborough,Khalsa,1,2,2024-10-15,20:45
-12397,Hartley,South Park,5,0,2024-10-15,20:30
-12398,Burgess Hill,Margate,2,1,2024-10-15,20:30
-12399,East Grinstead,Ashford Utd,1,3,2024-10-15,20:30
-12400,Haringey,Sporting BU,2,0,2024-10-15,20:45
-12401,Tilbury,Witham,2,1,2024-10-15,20:45
-12402,Brentwood,Cambridge Ct,3,1,2024-10-15,20:45
-12403,Moneyfields,Kingstonian,1,3,2024-10-15,20:45
-12404,Raynes Park,Farnham,1,2,2024-10-15,20:45
-12405,Leatherhead,Rayners Lane,6,1,2024-10-15,20:45
-12406,Broadbridge,Beckenham,2,3,2024-10-15,20:45
-12407,Herne Bay,Eastbourne T,2,1,2024-10-15,20:45
-12408,Merstham,Sheppey,1,1,2024-10-15,20:45
-12409,Steyning,Ramsgate,0,1,2024-10-15,20:45
-12410,Ramsbottom,AFC Liverpool,2,1,2024-10-15,20:45
-12411,West Didsbury,Lower Breck,3,0,2024-10-15,20:45
-12412,Beverley,Albion,3,0,2024-10-15,20:45
-12413,Seaham,Benfield,3,4,2024-10-15,20:30
-12414,Penrith,Easington,4,1,2024-10-15,20:45
+12331,Krems,SU Mauer,3,0,2024-10-15,19:30
+12332,Stockerau,Ybbs,2,2,2024-10-15,20:00
+12333,Micheldorf,St. Martin,1,1,2024-10-15,19:00
+12334,Edelweiß,Dietach,0,3,2024-10-15,19:00
+12335,Union Perg,Bad Ischl,2,1,2024-10-15,19:30
+12336,Heiligenkreuz,Eggendorf,1,0,2024-10-15,19:00
+12337,Donau,Stadlau,3,0,2024-10-15,18:30
+12338,Silz/Mötz,Ebbs,4,2,2024-10-15,19:30
+12339,Strání,Zlínsko,0,7,2024-10-15,15:30
+12340,Petřín,Motorlet,3,1,2024-10-15,16:00
+12341,Bamber Bridge,Stockton,1,5,2024-10-15,20:45
+12342,Leek,Rylands,0,1,2024-10-15,20:45
+12343,Lancaster,Guiseley,1,1,2024-10-15,20:45
+12344,Macclesfield,Hebburn,4,1,2024-10-15,20:45
+12345,Wimborne,Tiverton,3,0,2024-10-15,20:30
+12346,Telford,Alvechurch,1,1,2024-10-15,20:45
+12347,Banbury,Bedford,2,0,2024-10-15,20:45
+12348,Bromsgrove,Kettering,1,2,2024-10-15,20:45
+12349,Hitchin,Leiston,1,1,2024-10-15,20:45
+12350,Lowestoft,Stortford,2,1,2024-10-15,20:45
+12351,Royston,Spalding,0,3,2024-10-15,20:45
+12352,Stourbridge,Harborough,1,4,2024-10-15,20:45
+12353,Gloucester,Frome,2,0,2024-10-15,20:45
+12354,Hanwell,Basingstoke,1,2,2024-10-15,20:45
+12355,Hungerford,Bracknell,1,2,2024-10-15,20:45
+12356,Marlow,Chertsey,0,5,2024-10-15,20:45
+12357,Parkway,Totton,1,2,2024-10-15,20:45
+12358,Poole,Havant & Water,0,1,2024-10-15,20:45
+12359,Sholing,Dorchester,1,5,2024-10-15,20:45
+12360,Supermarine,Winchester,2,0,2024-10-15,20:45
+12361,Walton/Hersham,Gosport,2,2,2024-10-15,20:45
+12362,Cray,Chatham,1,4,2024-10-15,20:45
+12363,Hastings,Cheshunt,2,3,2024-10-15,20:45
+12364,Horsham,Whitehawk,5,0,2024-10-15,20:45
+12365,Wingate,Bowers/Pitsea,3,1,2024-10-15,20:45
+12366,Bradford PA,Carlton,1,1,2024-10-15,20:45
+12367,Cleethorpes,Aycliffe,3,2,2024-10-15,20:45
+12368,Belper,Brighouse,0,2,2024-10-15,20:45
+12369,Garforth,Ossett,2,1,2024-10-15,20:45
+12370,Bishop AL,Dunston,2,2,2024-10-15,20:45
+12371,Vauxhall,Nantwich,1,2,2024-10-15,20:45
+12372,Quorn,Students,5,1,2024-10-15,20:45
+12373,Warwick,Anstey,0,3,2024-10-15,20:45
+12374,Sttn Coldfield,Bedworth,0,0,2024-10-15,20:45
+12375,Wellingborough,Khalsa,1,2,2024-10-15,20:45
+12376,Bishops Cleeve,Tavistock,3,0,2024-10-15,20:45
+12377,Malvern,Bristol Manor,5,4,2024-10-15,20:45
+12378,Hartley,South Park,5,0,2024-10-15,20:30
+12379,Burgess Hill,Margate,2,1,2024-10-15,20:30
+12380,East Grinstead,Ashford Utd,1,3,2024-10-15,20:30
+12381,Haringey,Sporting BU,2,0,2024-10-15,20:45
+12382,Tilbury,Witham,2,1,2024-10-15,20:45
+12383,Brentwood,Cambridge Ct,3,1,2024-10-15,20:45
+12384,Moneyfields,Kingstonian,1,3,2024-10-15,20:45
+12385,Raynes Park,Farnham,1,2,2024-10-15,20:45
+12386,Leatherhead,Rayners Lane,6,1,2024-10-15,20:45
+12387,Broadbridge,Beckenham,2,3,2024-10-15,20:45
+12388,Herne Bay,Eastbourne T,2,1,2024-10-15,20:45
+12389,Merstham,Sheppey,1,1,2024-10-15,20:45
+12390,Steyning,Ramsgate,0,1,2024-10-15,20:45
+12391,Kirkley,Harleston,4,0,2024-10-15,20:45
+12392,Dereham,Sheringham,2,1,2024-10-15,20:45
+12393,Heacham,Lakenheath,3,1,2024-10-15,20:45
+12394,Stowmarket,Walsham,0,4,2024-10-15,20:45
+12395,Woodbridge,Hadleigh,1,1,2024-10-15,20:45
+12396,Stanway,Hullbridge,5,3,2024-10-15,20:45
+12397,Fairford,Corsham Town,2,0,2024-10-15,20:45
+12398,Brimscombe,Longlevens,1,1,2024-10-15,20:45
+12399,Raiders,Pegasus,0,0,2024-10-15,20:45
+12400,1874 Northwich,Romulus,2,3,2024-10-15,20:45
+12401,Ramsbottom,AFC Liverpool,2,1,2024-10-15,20:45
+12402,West Didsbury,Lower Breck,3,0,2024-10-15,20:45
+12403,Beverley,Albion,3,0,2024-10-15,20:45
+12404,Campion,Eccleshill,4,0,2024-10-15,20:45
+12405,Seaham,Benfield,3,4,2024-10-15,20:30
+12406,Penrith,Easington,4,1,2024-10-15,20:45
+12407,Hollands,Corinthian,2,3,2024-10-15,20:45
+12408,Gresley,Kimberley,4,1,2024-10-15,20:45
+12409,Shirebrook,Belper Utd,2,5,2024-10-15,20:45
+12410,Wisbech,Bourne,1,0,2024-10-15,20:45
+12411,Bugbrooke,Hinckley,3,1,2024-10-15,20:45
+12412,Eynesbury,Sileby,5,0,2024-10-15,20:45
+12413,ON Chenecks,Oadby Town,1,1,2024-10-15,20:45
+12414,Yaxley,Histon,2,0,2024-10-15,20:45
 12415,Hythe & Dibden,Stoneham,0,5,2024-10-15,20:45
 12416,Fareham,Blackfield,2,0,2024-10-15,20:45
 12417,Hamble,Laverstock,3,2,2024-10-15,20:45
-12418,Paide U21,JKT Kalev U21,1,7,2024-10-15,18:00
-12419,FC Tallinn,Tammeka,2,1,2024-10-15,19:00
-12420,Finland U19,Czechia U19,2,3,2024-10-15,12:00
-12421,San Marino U19,Switzerl. U19,0,4,2024-10-15,12:00
-12422,Poland U19,Türkiye U19,3,0,2024-10-15,13:00
-12423,Gibraltar U19,Malta U19,1,2,2024-10-15,13:00
-12424,Latvia U19,Slovakia U19,2,0,2024-10-15,18:00
-12425,Luxembourg U19,Macedonia U19,1,1,2024-10-15,18:00
-12426,Czechia U17,Germany U17,3,3,2024-10-15,11:00
-12427,Andorra U17,Belarus U17,1,3,2024-10-15,11:00
-12428,Slovenia U17,Poland U17,2,2,2024-10-15,12:00
-12429,Armenia U17,Georgia U17,1,3,2024-10-15,12:00
-12430,Croatia U17,Netherl. U17,3,1,2024-10-15,13:30
-12431,Faroe Isl. U17,Albania U17,0,1,2024-10-15,13:30
-12432,Ukraine U17,Belgium U17,1,2,2024-10-15,15:00
-12433,Kazakhstan U17,Kosovo U17,4,4,2024-10-15,15:00
-12434,Denmark U17,Austria U17,0,1,2024-10-15,15:00
-12435,Burghausen,Bamberg,0,1,2024-10-15,19:00
-12436,1860 II,Schalding,2,1,2024-10-15,19:00
-12437,Cham,Neudrossenfeld,3,0,2024-10-15,19:30
-12438,Ahlen,Rhynern,1,0,2024-10-15,20:00
-12439,Mladost NS,Smederevo,1,0,2024-10-15,15:00
-12440,Obolon,Vorskla,0,5,2024-10-15,13:00
-12441,Bala,Connah's Quay,0,0,2024-10-15,20:45
-12442,Briton Ferry,Haverfordwest,1,2,2024-10-15,20:45
-12443,Caernarfon,Aberystwyth,1,4,2024-10-15,20:45
-12444,Cardiff Met,Penybont,1,1,2024-10-15,20:45
-12445,Newtown,Barry,2,4,2024-10-15,20:45
-12446,New Saints,Flint,5,0,2024-10-15,20:45
+12418,Paulton,Portishead,5,2,2024-10-15,20:30
+12419,Paide U21,JKT Kalev U21,1,7,2024-10-15,18:00
+12420,FC Tallinn,Tammeka,2,1,2024-10-15,19:00
+12421,Bosnia U21,Cyprus U21,1,3,2024-10-15,16:00
+12422,Spain U21,Malta U21,6,0,2024-10-15,17:00
+12423,Estonia U21,Kosovo U21,3,1,2024-10-15,17:00
+12424,Poland U21,Germany U21,3,3,2024-10-15,17:00
+12425,Belgium U21,Hungary U21,0,1,2024-10-15,18:00
+12426,Kazakhstan U21,Scotland U21,3,2,2024-10-15,18:00
+12427,Georgia U21,Macedonia U21,2,1,2024-10-15,18:00
+12428,Israel U21,Bulgaria U21,0,1,2024-10-15,18:00
+12429,Albania U21,Armenia U21,1,0,2024-10-15,18:00
+12430,Romania U21,Switzerl. U21,3,1,2024-10-15,18:00
+12431,Finland U21,Montenegro U21,2,1,2024-10-15,18:00
+12432,Andorra U21,Portugal U21,1,2,2024-10-15,18:00
+12433,Croatia U21,Greece U21,3,2,2024-10-15,18:00
+12434,Faroe Isl. U21,Belarus U21,1,0,2024-10-15,18:00
+12435,Denmark U21,Iceland U21,2,0,2024-10-15,18:00
+12436,Czechia U21,Lithuania U21,3,0,2024-10-15,18:00
+12437,Italy U21,Ireland U21,1,1,2024-10-15,18:30
+12438,Norway U21,Türkiye U21,5,1,2024-10-15,18:30
+12439,San Marino U21,Latvia U21,0,3,2024-10-15,18:30
+12440,France U21,Austria U21,1,2,2024-10-15,18:30
+12441,Luxembourg U21,N. Ireland U21,0,0,2024-10-15,20:30
+12442,England U21,Azerbaijan U21,7,0,2024-10-15,20:30
+12443,Serbia U21,Ukraine U21,1,0,2024-10-15,20:30
+12444,Finland U19,Czechia U19,2,3,2024-10-15,12:00
+12445,San Marino U19,Switzerl. U19,0,4,2024-10-15,12:00
+12446,Poland U19,Türkiye U19,3,0,2024-10-15,13:00
+12447,Gibraltar U19,Malta U19,1,2,2024-10-15,13:00
+12448,Latvia U19,Slovakia U19,2,0,2024-10-15,18:00
+12449,Luxembourg U19,Macedonia U19,1,1,2024-10-15,18:00
+12450,Czechia U17,Germany U17,3,3,2024-10-15,11:00
+12451,Andorra U17,Belarus U17,1,3,2024-10-15,11:00
+12452,Slovenia U17,Poland U17,2,2,2024-10-15,12:00
+12453,Armenia U17,Georgia U17,1,3,2024-10-15,12:00
+12454,Croatia U17,Netherl. U17,3,1,2024-10-15,13:30
+12455,Faroe Isl. U17,Albania U17,0,1,2024-10-15,13:30
+12456,Ukraine U17,Belgium U17,1,2,2024-10-15,15:00
+12457,Kazakhstan U17,Kosovo U17,4,4,2024-10-15,15:00
+12458,Denmark U17,Austria U17,0,1,2024-10-15,15:00
+12459,Nottingham U21,Valencia B,0,1,2024-10-15,20:00
+12460,Burghausen,Bamberg,0,1,2024-10-15,19:00
+12461,1860 II,Schalding,2,1,2024-10-15,19:00
+12462,Cham,Neudrossenfeld,3,0,2024-10-15,19:30
+12463,Ahlen,Rhynern,1,0,2024-10-15,20:00
+12464,Northerners,Belgrave,6,0,2024-10-15,20:30
+12465,Vale RFC,Rangers,5,0,2024-10-15,20:30
+12466,G. Vicente U23,Torreense U23,1,4,2024-10-15,12:00
+12467,Mladost NS,Smederevo,1,0,2024-10-15,15:00
+12468,Fužinar,Šampion,2,0,2024-10-15,15:30
+12469,Obolon,Vorskla,0,5,2024-10-15,13:00
+12470,Bala,Connah's Quay,0,0,2024-10-15,20:45
+12471,Briton Ferry,Haverfordwest,1,2,2024-10-15,20:45
+12472,Caernarfon,Aberystwyth,1,4,2024-10-15,20:45
+12473,Cardiff Met,Penybont,1,1,2024-10-15,20:45
+12474,Newtown,Barry,2,4,2024-10-15,20:45
+12475,New Saints,Flint,5,0,2024-10-15,20:45
