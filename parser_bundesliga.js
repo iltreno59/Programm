@@ -70,12 +70,12 @@ async function main() {
 
 main();
 
-request(options, (err, res, body) => {
+/*request(options, (err, res, body) => {
     if (err) {
         return;
     }
     console.log(body);
-});
+});*/
 
 function print_body(){
     const options = {

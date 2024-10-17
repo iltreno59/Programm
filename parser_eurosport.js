@@ -80,3 +80,20 @@ async function main() {
 }
 
 main();
+
+function print_body(){
+    const options = {
+        url: `https://netsport.eurosport.io/?variables=%7B%22sportNetsportId%22%3A%2222%22%2C%22filters%22%3A%5B%7B%22type%22%3A%22CALENDAR%22%2C%22id%22%3A%222024-10-14%22%7D%5D%2C%22first%22%3A20%2C%22after%22%3Anull%2C%22matchCardHeaderContext%22%3A%22DEFAULT%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22a772c874c58dc285149ee0698eaa17431655eb815259a32c13f5ec66caa26df7%22%7D%7D`,
+        method: 'GET',
+        headers :{
+            'domain': 'www.eurosport.com'
+        }
+    };
+    request(options, (err, res, body) => {
+        if (err) {
+            return;
+        }
+        console.log(body);
+    });
+}
+//print_body();
