@@ -28,7 +28,7 @@ request(options, (err, res, body) => {
             const away_team = smh[i].children[5].children[1].children[0].data;
             const home_team_score = smh[i].children[3].children[0].data.split(' : ')[0];
             const away_team_score = smh[i].children[3].children[0].data.split(' : ')[1];
-            const start_time = smh[i].children[0].children[0].children[0].children[0].data;
+            const start_time = smh[i].children[0].children[0].children[0].children[0].data + ":00";
             const match = {
                 number: number,
                 home_team: home_team,

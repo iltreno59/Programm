@@ -48,7 +48,6 @@ async function getAllMatches() {
         }
     }
     return matches;
-
 }
 
 function print_body(){
