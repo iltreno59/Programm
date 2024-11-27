@@ -61,8 +61,6 @@ module.exports = async function getAllMatches() {
     return matches;
 }
 
-module.exports = {main};
-
 //main();
 
 function print_body(){
