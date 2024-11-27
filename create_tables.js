@@ -2,13 +2,13 @@ const { DataTypes } = require('sequelize');
 const { sequelize } = require('./connection.js');
 
 try {
-    sequelize.authenticate()
-    console.log('Соединение с БД было успешно установлено')
+    sequelize.authenticate();
+    console.log('Соединение с БД было успешно установлено');
 } catch (e) {
-    console.log('Невозможно выполнить подключение к БД: ', e)
+    console.log('Невозможно выполнить подключение к БД: ', e);
 }
 
-const tables = []
+const tables = [];
 
 const bundesliga_table = sequelize.define(
     'bundesliga',
@@ -206,6 +206,14 @@ const yahoo_table = sequelize.define(
     }
 )
 tables.push(yahoo_table);
+
+module.exports = {
+    bundesliga_table, 
+    eurosport_table, 
+    global_sport_table, 
+    goal_com_table, 
+    yahoo_table
+};
 
 for (let table of tables){
     table.sync({alter: true});

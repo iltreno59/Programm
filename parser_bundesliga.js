@@ -4,7 +4,7 @@ const cheerio = require('cheerio');
 let iteration = 1;
 const matches = [];
 
-function send_request(week) {
+async function send_request(week) {
     return new Promise((resolve, reject) => {
         const options = {
             url: `https://www.bundesliga.com/en/bundesliga/matchday/2023-2024/${week}`,
@@ -18,12 +18,12 @@ function send_request(week) {
             const $ = cheerio.load(body);
             const competition = 'Bundesliga';
             for (let i = 0; i < 18; i += 2) {
-                const number = iteration;
+                const match_number = iteration;
                 iteration++;
                 const element_team_name = $('div.matchRow.elevation-t-card.ng-star-inserted .container .d-xl-block');
                 const element_score = $('div.matchRow.elevation-t-card.ng-star-inserted .score');
                 const match = {
-                    number: number,
+                    match_number: match_number,
                     home_team: element_team_name[i].children[0].data,
                     away_team: element_team_name[i + 1].children[0].data,
                     home_score: element_score[i].children[0].data.trim(),
@@ -38,7 +38,7 @@ function send_request(week) {
     });
 }
 
-async function getAllMatches() {
+module.exports = async function getAllMatches() {
     for (let week = 1; week <= 34; week++) {
         try {
             await send_request(week);
