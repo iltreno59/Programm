@@ -1,23 +1,10 @@
 const request = require('request');
 const cheerio = require('cheerio');
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 const competition = 'Premier League';
 
 let iteration = 1;
 
-const csvWriter = createCsvWriter({
-    path: 'yahoo.csv',
-    header: [
-        { id: 'number', title: 'Number' },
-        { id: 'home_team', title: 'Home team name' },
-        { id: 'away_team', title: 'Away team name' },
-        { id: 'home_score', title: 'Home goals' },
-        { id: 'away_score', title: 'Away goals' },
-        { id: 'week', title: 'Week' },
-        { id: 'competition', title: 'Competition' }
-    ]
-});
 const matches = [];
 
 let date_range = 1;
@@ -64,16 +51,11 @@ function send_request(date_range) {
         });
     });
 }
-async function main() {
+async function getAllMatches() {
     while (date_range <= date_range_max) {
         await send_request(date_range);
         date_range++;
         await new Promise(resolve => setTimeout(resolve, 100));
     }
-
-    console.log(matches.length);
-    await csvWriter.writeRecords(matches);
-    console.log(`Количество записей: ${matches.length}`);
-    console.log(`Количество столбцов: ${Object.keys(matches[0]).length}`);
+    return matches;
 }
-main()

@@ -1,18 +1,4 @@
 const request = require('request');
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-
-const csvWriter = createCsvWriter({
-    path: 'eurosport.csv',
-    header: [
-        { id: 'number', title: 'Number' },
-        { id: 'home_team', title: 'Home team name' },
-        { id: 'away_team', title: 'Away team name' },
-        { id: 'home_score', title: 'Home goals' },
-        { id: 'away_score', title: 'Away goals' },
-        { id: 'competition', title: 'Competiton' },
-        { id: 'date', title: 'Match Date'}
-    ]
-});
 
 const matches = [];
 
@@ -73,12 +59,6 @@ module.exports = async function getAllMatches() {
         await new Promise(resolve => setTimeout(resolve, 1000)); 
     }
     return matches;
-    /*
-    //console.log(matches.length);
-    await csvWriter.writeRecords(matches);
-    console.log(`Количество записей: ${matches.length}`);
-    console.log(`Количество столбцов: ${Object.keys(matches[0]).length}`);
-    */
 }
 
 module.exports = {main};

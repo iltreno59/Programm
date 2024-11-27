@@ -1,19 +1,5 @@
 const request = require('request');
 const cheerio = require('cheerio');
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-
-const csvWriter = createCsvWriter({
-    path: 'global_sport.csv',
-    header: [
-        { id: 'number', title: 'Number' },
-        { id: 'home_team', title: 'Home team name' },
-        { id: 'away_team', title: 'Away team name' },
-        { id: 'home_team_score', title: 'Home goals' },
-        { id: 'away_team_score', title: 'Away goals' },
-        { id: 'date', title: 'Date' },
-        { id: 'start_time', title: 'Time' }
-    ]
-});
 
 let currentDate = new Date('2024-09-15');
 const endDate = new Date('2024-10-15');
@@ -63,16 +49,11 @@ request(options, (err, res, body) => {
 });
     });
 }
-async function main() {
+async function getAllMatches() {
     while (currentDate <= endDate){
         await send_request(new Date(currentDate));
         currentDate.setDate(currentDate.getDate() + 1);
         await new Promise(resolve => setTimeout(resolve, 100)); 
     }
-
-    console.log(matches.length);
-    await csvWriter.writeRecords(matches);
-    console.log(`Количество записей: ${matches.length}`);
-    console.log(`Количество столбцов: ${Object.keys(matches[0]).length}`);
+    return matches;
 }
-main()

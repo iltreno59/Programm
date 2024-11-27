@@ -1,19 +1,5 @@
 const request = require('request');
 const cheerio = require('cheerio');
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-
-const csvWriter = createCsvWriter({
-    path: 'bundesliga.csv',
-    header: [
-        { id: 'number', title: 'Number' },
-        { id: 'home_team', title: 'Home team name' },
-        { id: 'away_team', title: 'Away team name' },
-        { id: 'home_score', title: 'Home goals' },
-        { id: 'away_score', title: 'Away goals' },
-        { id: 'competition', title: 'Competition' },
-        { id: 'week', title: 'Week' }
-    ]
-});
 
 let iteration = 1;
 const matches = [];
@@ -52,7 +38,7 @@ function send_request(week) {
     });
 }
 
-async function main() {
+async function getAllMatches() {
     for (let week = 1; week <= 34; week++) {
         try {
             await send_request(week);
@@ -61,21 +47,9 @@ async function main() {
             console.error(`Error during request for week ${week}: ${err.message}`);
         }
     }
+    return matches;
 
-    console.log(matches.length);
-    await csvWriter.writeRecords(matches);
-    console.log(`Количество записей: ${matches.length}`);
-    console.log(`Количество столбцов: ${Object.keys(matches[0]).length}`);
 }
-
-main();
-
-/*request(options, (err, res, body) => {
-    if (err) {
-        return;
-    }
-    console.log(body);
-});*/
 
 function print_body(){
     const options = {
@@ -83,4 +57,3 @@ function print_body(){
         method: 'GET'
     };
 }
-//print_body();

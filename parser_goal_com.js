@@ -1,20 +1,4 @@
 const request = require('request');
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-
-const csvWriter = createCsvWriter({
-    path: 'goal_com.csv',
-    header: [
-        { id: 'number', title: 'Number' },
-        { id: 'competition', title: 'Competiton' },
-        { id: 'home_team', title: 'Home team name' },
-        { id: 'away_team', title: 'Away team name' },
-        { id: 'home_score', title: 'Home goals' },
-        { id: 'away_score', title: 'Away goals' },
-        { id: 'home_red_cards', title: 'Home Red Cards' },
-        { id: 'away_red_cards', title: 'Away Red Cards' },
-        { id: 'date', title: 'Date' }
-    ]
-});
 
 let currentDate = new Date('2024-09-15');
 const endDate = new Date('2024-10-15');
@@ -70,29 +54,15 @@ request(options, (err, res, body) => {
         }
     }
     resolve();
-    //const number = 1;
-    //console.log(number);
-    //console.log(data_json.liveScores[0].competition.name);
-    //console.log(data_json.liveScores[0].matches[0].startDate);
-    //console.log(data_json.liveScores[0].matches[0].teamA.name);
-    //console.log(data_json.liveScores[0].matches[0].teamB.name);
-    //console.log(data_json.liveScores[0].matches[0].score.teamA);
-    //console.log(data_json.liveScores[0].matches[0].score.teamB);
-    //console.log(data_json.liveScores[0].matches[0].redCards.teamA);
-    //console.log(data_json.liveScores[0].matches[0].redCards.teamB);
 });
     });
 }
-async function main() {
+async function getAllMatches() {
     while (currentDate <= endDate){
         await send_request(new Date(currentDate));
         currentDate.setDate(currentDate.getDate() + 1);
         await new Promise(resolve => setTimeout(resolve, 100)); 
     }
-
-    console.log(games.length);
-    await csvWriter.writeRecords(games);
-    console.log(`Количество записей: ${games.length}`);
-    console.log(`Количество столбцов: ${Object.keys(games[0]).length}`);
+    return games;
 }
 main()
