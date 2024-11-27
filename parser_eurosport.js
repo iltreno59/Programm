@@ -66,20 +66,24 @@ function send_request(date){
     });
 }
 
-async function main() {
+module.exports = async function getAllMatches() {
     while (currentDate <= endDate){
         await send_request(new Date(currentDate));
         currentDate.setDate(currentDate.getDate() + 1);
         await new Promise(resolve => setTimeout(resolve, 1000)); 
     }
-
+    return matches;
+    /*
     //console.log(matches.length);
     await csvWriter.writeRecords(matches);
     console.log(`Количество записей: ${matches.length}`);
     console.log(`Количество столбцов: ${Object.keys(matches[0]).length}`);
+    */
 }
 
-main();
+module.exports = {main};
+
+//main();
 
 function print_body(){
     const options = {
@@ -96,4 +100,3 @@ function print_body(){
         console.log(body);
     });
 }
-//print_body();
