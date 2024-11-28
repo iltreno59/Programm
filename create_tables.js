@@ -154,7 +154,7 @@ const goal_com_table = sequelize.define(
             type: DataTypes.SMALLINT,
             allowNull: false,
         },
-        away_team_goals_red_cards: {
+        away_team_red_cards: {
             type: DataTypes.SMALLINT,
             allowNull: false,
         },

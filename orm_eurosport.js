@@ -26,7 +26,10 @@ async function main() {
         }
         catch(e){
             if (e.name = 'SequelizeUniqueConstraintError') continue;
-            else console.log('Непредвиденная ошибка при внесении данных в БД: ', e)
+            else {
+                console.log('Непредвиденная ошибка при внесении данных в БД: ', e)
+                break;
+            }
         }
     }
 }
