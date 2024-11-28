@@ -49,7 +49,7 @@ request(options, (err, res, body) => {
 });
     });
 }
-async function getAllMatches() {
+module.exports = async function getAllMatches() {
     while (currentDate <= endDate){
         await send_request(new Date(currentDate));
         currentDate.setDate(currentDate.getDate() + 1);
