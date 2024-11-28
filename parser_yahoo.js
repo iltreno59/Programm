@@ -51,7 +51,7 @@ function send_request(date_range) {
         });
     });
 }
-async function getAllMatches() {
+module.exports = async function getAllMatches() {
     while (date_range <= date_range_max) {
         await send_request(date_range);
         date_range++;

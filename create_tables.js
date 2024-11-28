@@ -198,11 +198,6 @@ const yahoo_table = sequelize.define(
             type: DataTypes.SMALLINT,
             allowNull: false,
         },
-        competition: {
-            type: DataTypes.TEXT,
-            allowNull: false,
-            defaultValue: 'Premier League,'
-        },
     }
 )
 tables.push(yahoo_table);
