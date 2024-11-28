@@ -2,7 +2,7 @@ const { sequelize } = require('./connection.js')
 const { global_sport_table } = require('./create_tables.js')
 const getAllMatches = require('./parser_global_sport_archive.js')
 
-async function main() {
+async function writeToDB() {
     let matches = [];
     try {
         sequelize.authenticate();
@@ -35,4 +35,4 @@ async function main() {
     
 }
 
-main();
+//main();

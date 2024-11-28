@@ -2,7 +2,7 @@ const getAllMatches = require('./parser_bundesliga.js')
 const { sequelize } = require('./connection.js')
 const { bundesliga_table } = require('./create_tables.js')
 
-async function main(){
+module.exports = async function writeToDB(){
     let matches = [];
     try {
         sequelize.authenticate();
@@ -34,4 +34,4 @@ async function main(){
     }
 }
 
-main();
+//main();

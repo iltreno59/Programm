@@ -2,7 +2,7 @@ const { sequelize } = require('./connection.js')
 const { yahoo_table } = require('./create_tables.js')
 const getAllMatches = require('./parser_yahoo.js')
 
-async function main() {
+async function writeToDB() {
     let matches = [];
     try {
         sequelize.authenticate();
@@ -33,4 +33,4 @@ async function main() {
         }
     }
 }
-main();
+//main();
