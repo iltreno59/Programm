@@ -203,15 +203,12 @@ const yahoo_table = sequelize.define(
 tables.push(yahoo_table);
 
 module.exports = {
+    tables,
     bundesliga_table, 
     eurosport_table, 
     global_sport_table, 
     goal_com_table, 
     yahoo_table
 };
-
-for (let table of tables){
-    table.sync({alter: true});
-}
 
 //await sequelize.close();
